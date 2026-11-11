@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "hypergamy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PlayerSkinMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

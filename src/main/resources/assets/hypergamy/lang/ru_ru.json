@@ -1,6 +1,9 @@
 {
-  "key.hypergamy.toggle": "Вкл/выкл скин Hypergamy",
+  "key.hypergamy.toggle": "Вкл/выкл панель Hypergamy",
   "key.categories.hypergamy": "Hypergamy Skin",
-  "hypergamy.on": "Скин Hypergamy: ВКЛ",
-  "hypergamy.off": "Скин Hypergamy: ВЫКЛ"
+  "hypergamy.on": "Панель Hypergamy: ВКЛ",
+  "hypergamy.off": "Панель Hypergamy: ВЫКЛ",
+  "hypergamy.config.title": "Hypergamy Skin",
+  "hypergamy.config.on": "Панель: ВКЛ",
+  "hypergamy.config.off": "Панель: ВЫКЛ"
 }

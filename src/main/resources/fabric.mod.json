@@ -6,13 +6,24 @@
   "description": "Every player is drawn as a flat picture panel. Toggle with a key (default: K). Client-side only.",
   "environment": "client",
   "entrypoints": {
-    "client": ["hypergamy.HypergamyClient"]
+    "client": [
+      "hypergamy.HypergamyClient"
+    ],
+    "modmenu": [
+      "hypergamy.ModMenuIntegration"
+    ]
   },
-  "mixins": ["hypergamy.mixins.json"],
+  "mixins": [
+    "hypergamy.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.16.0",
     "fabric-api": "*",
     "minecraft": "1.21.4",
     "java": ">=21"
+  },
+  "icon": "assets/hypergamy/icon.png",
+  "suggests": {
+    "modmenu": "*"
   }
 }

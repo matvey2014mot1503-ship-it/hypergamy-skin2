@@ -7,10 +7,14 @@
 ## Управление
 Клавиша **K** (меняется в «Управление» → «Hypergamy Skin») включает и выключает панель.
 
+## Настройки
+Если установлен Mod Menu, в нём у мода есть кнопка настроек с переключателем ВКЛ/ВЫКЛ. Состояние сохраняется в `config/hypergamy.properties`.
+
 ## Установка
 1. Fabric Loader для 1.21.4: https://fabricmc.net/use
 2. Fabric API для 1.21.4
-3. Файл `hypergamy-skin-*.jar` из вкладки Releases положить в `.minecraft/mods`
+3. (по желанию) Mod Menu для 1.21.4 — для экрана настроек
+4. Файл `hypergamy-skin-*.jar` из вкладки Releases положить в `.minecraft/mods`
 
 ## Своя картинка
 Замените `src/main/resources/assets/hypergamy/textures/panel.png` и закоммитьте.

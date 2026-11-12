@@ -1,6 +1,9 @@
 {
-  "key.hypergamy.toggle": "Toggle Hypergamy skin",
+  "key.hypergamy.toggle": "Toggle Hypergamy panel",
   "key.categories.hypergamy": "Hypergamy Skin",
-  "hypergamy.on": "Hypergamy skin: ON",
-  "hypergamy.off": "Hypergamy skin: OFF"
+  "hypergamy.on": "Hypergamy panel: ON",
+  "hypergamy.off": "Hypergamy panel: OFF",
+  "hypergamy.config.title": "Hypergamy Skin",
+  "hypergamy.config.on": "Panel: ON",
+  "hypergamy.config.off": "Panel: OFF"
 }

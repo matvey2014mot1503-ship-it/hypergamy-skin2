@@ -26,7 +26,16 @@ jobs:
           gradle-version: "8.12"
 
       - name: Build
-        run: gradle build --no-daemon
+        shell: bash
+        run: |
+          set -o pipefail
+          gradle build --no-daemon 2>&1 | tee build.log
+
+      - name: Show error summary
+        if: failure()
+        shell: bash
+        run: |
+          echo "::error title=build-log::$(grep -E 'error:|What went wrong|Caused by|Could not|not found' -A2 build.log | head -c 3500 | sed ':a;N;$!ba;s/\n/%0A/g')"
 
       - uses: actions/upload-artifact@v4
         with:

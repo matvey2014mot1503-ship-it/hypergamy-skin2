@@ -3,7 +3,7 @@
   "id": "hypergamy",
   "version": "${version}",
   "name": "Hypergamy Skin",
-  "description": "Shows every player with the hypergamy skin. Toggle with a key (default: K). Client-side only.",
+  "description": "Every player is drawn as a flat picture panel. Toggle with a key (default: K). Client-side only.",
   "environment": "client",
   "entrypoints": {
     "client": ["hypergamy.HypergamyClient"]
